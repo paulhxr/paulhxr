@@ -1,5 +1,5 @@
     @font-face {
-      font-family: "Dev";
+      font-family: "dev";
       src:url('Font/dev.ttf');
     }
 
@@ -28,7 +28,7 @@
     }
         
     .hed {
-      font-family: "Dev";
+      font-family: "dev";
       text-align: center;
       color: #fff;
       font-weight: bold;
