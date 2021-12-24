@@ -1,6 +1,6 @@
     @font-face {
       font-family: "dev";
-      src:url('dev.ttf');
+      src:url('Font/dev.ttf');
     }
 
     #particles-js{
