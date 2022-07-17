@@ -1,0 +1,105 @@
+    @font-face {
+      font-family: "dev";
+      src:url('dev.ttf');
+    }
+
+    #particles-js{
+      background-color: rgba(20, 21, 27, 0.9490196078);
+      height: 100vh;
+    }
+    
+    body {
+      width: 100%;
+      height: 100vh;
+      color: #333;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    .page-ico {
+      position: absolute;
+      margin: auto;
+      height: 65%;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+    }
+    
+    .ico {
+      width: 45%;
+      border: 1em solid;
+      border-color: rgba(134, 134, 134, 0.1);
+      border-radius: 50%;
+      pointer-events: none;
+    }
+        
+    .hed {
+      font-family: "dev";
+      text-align: center;
+      color: #fff;
+      font-weight: bold;
+      font-size: 2.5em;
+      letter-spacing: 2px;
+      -webkit-text-stroke: 1px #000;
+    }
+    
+    .typed {
+      color: #fff;
+      font-size: 1em;
+      -webkit-text-stroke: 1px #000;
+      text-decoration: none;
+    }
+
+    .typed-cursor{
+      opacity: 1;
+      animation: blink 0.7s infinite;
+    }
+
+    @keyframes blink{
+      0% { opacity:10; }
+      50% { opacity:0; }
+      100% { opacity:10; }
+    }
+
+    @keyframes blink{
+      0% { opacity:10; }
+      50% { opacity:0; }
+      100% { opacity:10; }
+    }
+    
+    .logo {
+      color: white;
+      font-size: 10px;
+      margin: 10px;
+      text-decoration: none;
+    }
+ 
+    .logo:hover {
+      color: white;
+      cursor: pointer;
+    }
+    
+    .about {
+      margin-top: 70%;
+      position: absolute;
+      height: 20%;
+      left: 0;
+      right: 0;
+    }
+    
+    .about .container {
+      text-align: center;
+    }
+    
+    .about .container h2 {
+      font-family: "Sans-Serif";
+      font-weight: bold;
+      color: #FFF;
+    }
+    
+    .about .container h3 {
+      font-family: "Sans-Serif";
+      color: #FFF;
+    }
